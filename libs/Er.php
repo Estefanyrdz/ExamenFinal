@@ -111,6 +111,13 @@ class Er {
 		     return false;
 		} 
 	}
+		public function valida_imagen($valor) {    
+        if(preg_match("%\.(jpg)$%i",$valor)){
+        	return true;
+           } else{
+                return false;
+            }
+    }	
 	
 }
 ?>    
