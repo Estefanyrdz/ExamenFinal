@@ -1,5 +1,5 @@
 <?php 
-  define('BASEURL','http://localhost/practica/practica10/');
+  define('BASEURL','http://localhost/ExamenFinal/');
 ?>
 <!DOCTYPE html>
 <html lang="en">
