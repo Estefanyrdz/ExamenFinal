@@ -69,6 +69,10 @@ $(document).ready(function() {
 								max: 45,
 								message: 'El escudo debe ser mayor de 2 y menos de 45 caracteres de largo'
 							},
+							regexp: {
+								regexp: /^[a-zA-Z0-9, ,_]+\(.+\.jpg|.+\.jpeg|.+\.png)*$/,
+								message: 'El nombre de usuario sólo puede consistir en número'
+							}
 						}
 					},
 				}

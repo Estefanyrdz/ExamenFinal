@@ -64,7 +64,7 @@ class Er {
 	
 	//escudo
 	public function valida_escudo($valor){
-	$exp_reg = '/^[a-zA-Z0-9, ,_,.]*$/';
+	$exp_reg = '/^(.+\.jpg|.+\.jpeg|.+\.png)*$/';
 	if (preg_match($exp_reg, $valor)) {
 		     return true;
 		} else { 
