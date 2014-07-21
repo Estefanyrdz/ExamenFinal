@@ -20,7 +20,7 @@
 
 <br/>
             <div class="row">
-               <body background="fifa.jpg">
+               <body background="ban.jpg">
                 <div class="col-md-6">
                     <form role="form" id="pais" action="" method="POST" enctype="multipart/form-data">
                       <div class="form-group">
