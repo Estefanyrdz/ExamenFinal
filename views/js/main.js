@@ -85,7 +85,7 @@ $(document).ready(function() {
 							},
 							regexp: {
 								regexp: /^(.+\.jpg|.+\.jpeg|.+\.png)*$/,
-								message: 'El nombre de usuario sólo puede consistir en número'
+								message: 'El nombre de usuario sólo puede en archivos de imagen'
 							},
 						}
 					},
