@@ -4,9 +4,9 @@
   include ('../../models/Conexion.php');
   include ('../../models/Modelo.php');
   include ('../../models/Pais.php');
-  include ('../../controllers/siteController/PaisController.php');
+  include ('../../controllers/PaisController.php');
   include ('../../libs/Er.php');
-  include ('../encabezado_inte/header.php');
+  //include ('../encabezado_inte/header.php');
      $paisC = new PaisController();
   if (isset($_POST['nombre'])) {
     /*echo "<pre>"; //muestra los espacios que envia.

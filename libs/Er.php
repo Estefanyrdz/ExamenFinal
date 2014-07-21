@@ -11,6 +11,15 @@ class Er {
 		     return false;
 		} 
 	}
+	//VALIDA QUE EL VALOR DADO SEAN SOLO NUMEROS
+	public function valida_numero($valor){
+		$exp_reg = "/^[[:digit:]]+$/"; 
+		if (preg_match($exp_reg, $valor)) {
+		     return true;
+		} else { 
+		     return false;
+		} 
+	}
 	
 	//nombre
 	public function valida_nombre($valor){
