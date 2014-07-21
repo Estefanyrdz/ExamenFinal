@@ -91,13 +91,13 @@ class Modelo extends Conexion {
  foreach ($rows as $key => $value) {
 
  $dropDown.= '<option value="'.$value['idcontinente'].'">'.utf8_encode($value['nombre']).'</option>';
-
+ $dropDown.= '<option value="'.$value['idpais'].'">'.utf8_encode($value['nombre']).'</option>';
+  $dropDown.= '<option value="'.$value['idequipo'].'">'.utf8_encode($value['nombre']).'</option>';
  }
 
  $dropDown.= '</select>'; 
 
  return $dropDown;
-
 }
 
 
