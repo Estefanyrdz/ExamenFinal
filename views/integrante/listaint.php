@@ -13,7 +13,7 @@ session_start();
 	
 ?>	
 <div class=row>
-	<body background="int.jpg">
+	<body background="brazil14_fondo.jpg">
 		<div class="col-md-2">
 		</div>
 		<div class="col-md-8">
