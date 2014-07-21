@@ -42,11 +42,12 @@
 					<h4>¿No se encuentra el pais que deseas en la lista?</h4>
 					<h4>Ingresalo <a href="pais.php">Aqui<a></h4>
 			</form>
-		
-<br/><br/><br/><br/>
-			<h2 class="text-center">Lista equipos</h2>
-			
-			<?php $equipoC->show_grid(); ?>
+			<div>
+				<button type="button" class="btn btn-info">
+				<a class="fancybox fancybox.iframe" href="listaequipo.php">Mostrar Lista de Equipos</a>
+				</button>
+			</div>
+
 		</div>
 		<div class="col-md-2">
 		</div>
