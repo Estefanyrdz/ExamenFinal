@@ -13,6 +13,7 @@ session_start();
 	
 ?>	
 <div class=row>
+	<body background="escudos.jpg">
 		<div class="col-md-2">
 		</div>
 		<div class="col-md-8">

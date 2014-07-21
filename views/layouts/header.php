@@ -49,7 +49,9 @@
                     <li class="divider"></li>
                   <li><a href="<?php echo BASEURL; ?>/views/estadio/estadio.php">Estadio</a></li>
                     <li class="divider"></li>
-                   <li><a href="<?php echo BASEURL; ?>/views/equipo/equipo.php">Equipo</a></li>
+                   <li><a href="<?php echo BASEURL; ?>/views/equipo/equipo.php">Registrar Equipo</a></li>
+                    <li class="divider"></li>
+					<li><a href="<?php echo BASEURL; ?>/views/equipo/listaequipo.php">Ver los Equipos Registrados</a></li>
                     <li class="divider"></li>
                   <li><a href="<?php echo BASEURL; ?>/views/pais/pais.php">Pais</a></li>
                   </ul>
