@@ -18,7 +18,7 @@
       
 ?>
 		<div class="row">
-		<body background="fifa.jpg">
+		<body background="pa.jpg">
 			<div class="col-md-12">
 				<div class="jumbotron">
 				  <h2>FORMULARIO INTEGRANTE</h2>

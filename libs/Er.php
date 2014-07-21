@@ -89,7 +89,7 @@ class Er {
 		} 
 	}
 	public function valida_peso($valor){
-		$exp_reg = '/^[0-9.]$/'; 
+		$exp_reg = '/^[[:digit:].[:digit:]]+$/'; 
 		if (preg_match($exp_reg, $valor)) {
 		     return true;
 		} else { 
@@ -97,7 +97,7 @@ class Er {
 		} 
 	}
 	public function valida_estatura($valor){
-		$exp_reg = '/^[0-9.]$/'; 
+		$exp_reg = '/^[[:digit:].[:digit:]]+$/'; 
 		if (preg_match($exp_reg, $valor)) {
 		     return true;
 		} else { 
@@ -105,7 +105,7 @@ class Er {
 		} 
 	}
 	public function valida_edad($valor){
-		$exp_reg = '/^[0-9]$/'; 
+		$exp_reg = '/^[[:digit:]]+$/'; 
 		if (preg_match($exp_reg, $valor)) {
 		     return true;
 		} else { 
@@ -121,12 +121,29 @@ class Er {
 		} 
 	}
 		public function valida_imagen($valor) {    
-        if(preg_match("%\.(jpg)$%i",$valor)){
-        	return true;
-           } else{
-                return false;
-            }
-    }	
+       $exp_reg = '/^(.+\.jpg|.+\.jpeg|.+\.png)*$/';
+	if (preg_match($exp_reg, $valor)) {
+		     return true;
+		} else { 
+		     return false;
+		} 
+	}
+    public function valida_abreviatura($valor){
+		$exp_reg = '/^([a-zA-Z])*$/'; 
+		if (preg_match($exp_reg, $valor)) {
+		     return true;
+		} else { 
+		     return false;
+		} 
+	}
+	public function valida_idciudad($valor){
+		$exp_reg = '/^[0-9]$/'; 
+		if (preg_match($exp_reg, $valor)) {
+		     return true;
+		} else { 
+		     return false;
+		} 
+	}	
 	
 }
 ?>    
