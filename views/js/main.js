@@ -6,8 +6,6 @@ $(document).ready(function() {
 			$('#datetimepicker1').datetimepicker({
 				language: 'es'
 					});
-					
-					
 				});
 		$(function() {
 			$('#datetimepicker2').datetimepicker({
@@ -38,7 +36,7 @@ $(document).ready(function() {
 							regexp: {
 								regexp: /^[a-zA-Z0-9, ,_]*$/,
 								message: 'El nombre de usuario sólo puede consistir en alfabético, número y subrayado'
-							}
+							},
 						}
 					},
 					idpais: {
@@ -55,7 +53,7 @@ $(document).ready(function() {
 							regexp: {
 								regexp: /^[0-9]*$/,
 								message: 'El nombre de usuario sólo puede consistir en número'
-							}
+							},
 						}
 					},
 					escudo: {
@@ -70,9 +68,9 @@ $(document).ready(function() {
 								message: 'El escudo debe ser mayor de 2 y menos de 45 caracteres de largo'
 							},
 							regexp: {
-								regexp: /^[a-zA-Z0-9, ,_]+\(.+\.jpg|.+\.jpeg|.+\.png)*$/,
+								regexp: /^(.+\.jpg|.+\.jpeg|.+\.png)*$/,
 								message: 'El nombre de usuario sólo puede consistir en número'
-							}
+							},
 						}
 					},
 				}
