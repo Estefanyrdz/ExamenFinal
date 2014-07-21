@@ -69,7 +69,7 @@ class Pais extends Modelo{
         $er = new Er();
         
         if ( !$er->valida_imagen($valor['name']) ){
-            $this->errores[] = "Este foto (".$valor.") no es valido";
+            $this->errores[] = "Este foto (".$valor['name'].") no es valido";
         }
          //agregar funcion para validar tipo y tamaño del archivo
         $this->bandera = trim($valor['name']);

@@ -4,29 +4,29 @@
 		public $muestra_errores = false;
 
 		function __construct(){
-			 //parent::Equipo();
+			 parent::Pais();
 		}
 
 		public function insertaPais($datos,$archivos){
-			echo "<pre>datos:"; //muestra los espacios que envia.
+			/*echo "<pre>datos:"; //muestra los espacios que envia.
     		print_r($datos);
     		print_r($archivos);
     		echo "</pre>";
     		
-			$pais = new Pais();
-			$pais->set_nombre($datos['nombre']);
-			$pais->set_idcontinente($datos['idcontinente']);
-			$pais->set_bandera($archivos['bandera']);
+			$pais = new Pais();*/
+			$this->set_nombre($datos['nombre']);
+			$this->set_idcontinente($datos['idcontinente']);
+			$this->set_bandera($archivos['bandera']);
 			
-			if (count($pais->errores)>0) {
-				print_r($pais->errores);
-	             die();
+			if (count($this->errores)>0) {
+				$this->muestra_errores = true;
 			}
 			else
 			{
-               move_uploaded_file($archivos['bandera']['tmp_name'],"../img/".$archivos['bandera']['name']);
+               //move_uploaded_file($archivos['bandera']['tmp_name'],"../img/".$archivos['bandera']['name']);
+			      $this->inserta($this->get_atributos());
 			}
-            $pais->inserta($pais->get_atributos());
+         
 			
 		}
 
