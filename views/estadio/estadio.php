@@ -19,7 +19,7 @@
 ?>
 <br/><br/>
 			<div class="row">
-			 <body background="fifa.jpg">
+			 <body background="esta.jpg">
 				<div class="col-md-6">
 					<form role="form" id="lugar" action="" method="POST">
 					  <div class="form-group">
