@@ -12,7 +12,23 @@ $(document).ready(function() {
 			pickTime: false
 			});
 		  });
-
+             $(document).ready(function() {
+			$(".elemento1").hide("slow");
+			$(".elemento2").hide("slow");
+			$(".elemento3").hide("slow");
+			
+		$("#boton").click(function(){	
+			$(".elemento1").show("fats");	
+					});
+		$("#boton2").click(function(){
+			$(".elemento3").hide("fats");
+			$(".elemento2").show("fats");		
+					});
+		$("#boton3").click(function(){
+			$(".elemento2").hide("fats");
+			$(".elemento3").show("fats");		
+					});
+			});
 			//INICIO FORMULARIO equipo
 			$('#Formularioequipo').bootstrapValidator({
 				message: 'Este valor no es válido',

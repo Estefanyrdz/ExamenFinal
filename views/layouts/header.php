@@ -1,5 +1,5 @@
 <?php 
-  define('BASEURL','http://localhost:8080/ExamenFinal/');
+  define('BASEURL','http://localhost/ExamenFinal');
 ?>
 <!DOCTYPE html>
 <html lang="en">
