@@ -42,7 +42,11 @@
 		<script type="text/javascript" src="../js/jquery.fancybox-thumbs.js?v=1.0.7"></script>
 		<script type="text/javascript" src="../js/jquery.fancybox-media.js?v=1.0.6"></script>
 		<script src="../js/main.js"></script>
-
+		<script src="../js/main2.js"></script>
+        <script src="../js/main3.js"></script>
+        <script src="../js/main4.js"></script>
+        <script src="../js/main5.js"></script>
+        <script src="../js/main6.js"></script>
 	<!-- Fin de Librerias -->
 	
 	

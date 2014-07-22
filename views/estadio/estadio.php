@@ -21,7 +21,7 @@
 			<div class="row">
 			 <body background="esta.jpg">
 				<div class="col-md-6">
-					<form role="form" id="lugar" action="" method="POST">
+				<form role="form" id="estadio" action="" method="POST">
 					  <div class="form-group">
 						<label for="nombre">Nombre: </label>
 						<input type="text" class="form-control" id="Nombre" name="Nombre" value="<?php echo $equipoC->get_Nombre();?>">

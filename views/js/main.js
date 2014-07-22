@@ -42,16 +42,16 @@ $(document).ready(function() {
 						message: 'El nombre del equipo no es válido',
 						validators: {
 							notEmpty: {
-								message: 'Es necesario el nombbre del equipo y no puede estar vacío'
+								message: 'Es necesario el nombre del equipo y no puede estar vacío'
 							},
 							stringLength: {
 								min: 2,
 								max: 48,
-								message: 'El status de la revista debe ser mayor de 2 y menos de 48 caracteres de largo'
+								message: 'El nombre del equipo debe ser mayor de 2 y menos de 48 caracteres de largo'
 							},
 							regexp: {
-								regexp: /^[a-zA-Z0-9, ,_]*$/,
-								message: 'El nombre de usuario sólo puede consistir en alfabético, número y subrayado'
+								regexp: /^[a-zA-Z]*$/,
+								message: 'El nombre del equipo sólo puede consistir en alfabético'
 							},
 						}
 					},
@@ -68,7 +68,7 @@ $(document).ready(function() {
 							},
 							regexp: {
 								regexp: /^[0-9]*$/,
-								message: 'El nombre de usuario sólo puede consistir en número'
+								message: 'El id de pais sólo puede consistir en número'
 							},
 						}
 					},
@@ -85,7 +85,7 @@ $(document).ready(function() {
 							},
 							regexp: {
 								regexp: /^(.+\.jpg|.+\.jpeg|.+\.png)*$/,
-								message: 'El nombre de usuario sólo puede en archivos de imagen'
+								message: 'El escudo sólo puede ser imagen'
 							},
 						}
 					},
