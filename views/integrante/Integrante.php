@@ -54,7 +54,7 @@
 		                  <input type="text" class="form-control" id="edad" name="edad" value="<?php echo $equipoC->get_edad();?>">
                            </div>
                            <label for="idequipo">Equipo: </label>
-			                <?php echo $equipoC->getDropDown ('equipo', 'idequipo','idequipo'); ?>
+			                <?php echo $equipoC->getDropDown2 ('equipo', 'idequipo','idequipo'); ?>
                             <div class="form-group">
 		                  <label for="foto">foto:</label>
 		                  <input type="file" class="form-control" id="foto" name="foto">

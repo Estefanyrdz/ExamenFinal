@@ -28,7 +28,7 @@
                         <input type="text" class="form-control" id="nombre" name="nombre" value="<?php echo $equipoC->get_nombre();?>"/>
                       </div>
                        <label for="exampleInputEmail1">Continente: </label>
-                       <?php echo $equipoC->getDropDown ('continente', 'idcontinente','idcontinente'); ?>
+                       <?php echo $equipoC->getDropDown1 ('continente', 'idcontinente','idcontinente'); ?>
                       <div class="form-group">
                         <label for="bandera">Bandera: </label>
                         <input type="file" id="bandera" name="bandera"/>

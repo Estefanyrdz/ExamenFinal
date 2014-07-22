@@ -9,11 +9,11 @@ session_start();
     include ('../../libs/Er.php');
 	include ('../layouts/header.php');
 
-	$equipoC = new EquipoController();
+	$equipoC = new IntegranteController();
 	
 ?>	
 <div class=row>
-	<body background="brazil14_fondo.jpg">
+	<body background="pa2.jpg">
 		<div class="col-md-2">
 		</div>
 		<div class="col-md-8">
