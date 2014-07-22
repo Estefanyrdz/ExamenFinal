@@ -1,5 +1,5 @@
 <?php 
-  session_start();
+    include ('../../libs/security.php');
     include ('../layouts/header.php');
     include ('../../libs/adodb5/adodb-pager.inc.php');
     include ('../../libs/adodb5/adodb.inc.php');
@@ -53,16 +53,8 @@
 		                  <label for="edad">Edad:</label>
 		                  <input type="text" class="form-control" id="edad" name="edad" value="<?php echo $equipoC->get_edad();?>">
                            </div>
-                           <label for="exampleInputEmail1">Equipo: </label>
-			                  <select name="idequipo">
-			                  <option value="1">1</option>
-			                  <option value="2">2</option>
-			                  <option value="3">3</option>
-			                  <option value="4">4</option>
-			                  <option value="5">5</option>
-			                  <option value="6">6</option>
-			                  <option value="7">7</option>
-			                  </select>
+                           <label for="idequipo">Equipo: </label>
+			                <?php echo $equipoC->getDropDown2 ('equipo', 'idequipo','idequipo'); ?>
                             <div class="form-group">
 		                  <label for="foto">foto:</label>
 		                  <input type="file" class="form-control" id="foto" name="foto">

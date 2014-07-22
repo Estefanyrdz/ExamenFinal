@@ -34,7 +34,7 @@
 		</div>
 		<div class="col-md-3" >
 			<label>Lista de Integrantes</label>
-			<a href="../......./........php"><img src=""></a>
+			<a href="../integrante/listaint.php"><img src="int.jpg"></a>
 		</div>
 
 		<div class="col-md-3">
